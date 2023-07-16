@@ -91,8 +91,8 @@ export class Visualizer {
             </head>
             <body>
                 <iframe
-                    width="1200"
-                    height="1600" 
+                    width="1000"
+                    height="1000" 
                     src="${url}"
                 ></iframe>
             </body>
