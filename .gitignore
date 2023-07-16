@@ -1,0 +1,12 @@
+# developer tools
+*.idea
+.vscode
+.vs/
+.vscodeignore
+
+# node js
+node_modules/
+
+# artifacts
+out/
+
