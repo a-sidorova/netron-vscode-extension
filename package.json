@@ -3,6 +3,8 @@
   "displayName": "Netron",
   "description": "The extension allows users to use Netron to visualize Deep Learning models",
   "version": "0.0.1",
+  "publisher": "a-sidorova",
+  "license": "Apache License 2.0",
   "engines": {
     "vscode": "^1.80.0"
   },
