@@ -2,6 +2,7 @@
 *.idea
 .vs/
 .vscodeignore
+.vscode/settings.json
 
 # node js
 node_modules/
