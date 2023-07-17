@@ -5,6 +5,11 @@
   "version": "0.0.1",
   "publisher": "a-sidorova",
   "license": "Apache License 2.0",
+  "icon": "resources/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/a-sidorova/netron-vscode-extension.git"
+    },
   "engines": {
     "vscode": "^1.80.0"
   },
