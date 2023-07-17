@@ -1,6 +1,5 @@
 # developer tools
 *.idea
-.vscode
 .vs/
 .vscodeignore
 
