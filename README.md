@@ -2,7 +2,7 @@
 
 <div align="center"><image src="https://github.com/a-sidorova/netron-vscode-extension/blob/5b7eb5d4e2f2c07e9a774359e504385229df6315/resources/icon.png?raw=true" height="200" width="200"></div>
 
-The unofficial extension for Visual Studio Code that allows users to visualize many Deep Learning models using [Netron][netron] server. At the moment the extension supports models of the following frameworks and toolkits: `OpenVINO`, `TensorFlow`, `TensorFlow Lite`, `ONNX`, `PyTorch`, `MXNet` etc.
+`Netron VSCode Extension` is the unofficial extension for Visual Studio Code that allows users to visualize many Deep Learning models using [Netron][netron] server. At the moment the extension supports models of the following frameworks and toolkits: `OpenVINO`, `TensorFlow`, `TensorFlow Lite`, `ONNX`, `PyTorch`, `MXNet` etc.
 
 
 ### How to use

@@ -1,6 +1,6 @@
 {
-  "name": "netron-vscode-extension",
-  "displayName": "Netron",
+  "name": "netron-vscode-ext",
+  "displayName": "Netron VSCode Extension",
   "description": "The extension allows users to use Netron to visualize Deep Learning models",
   "version": "0.0.1",
   "publisher": "a-sidorova",
@@ -21,20 +21,20 @@
   "contributes": {
     "commands": [
       {
-        "command": "netron-vscode-extension.open",
+        "command": "netron-vscode-ext.open",
         "title": "Open Netron"
       }
     ],
     "menus": {
       "explorer/context": [
         {
-          "command": "netron-vscode-extension.open",
+          "command": "netron-vscode-ext.open",
           "when": "resourceExtname =~ /\\.(xml|pdmodel|nb|mnn|param|tnnproto|onnx|pb|pbtxt|h5|keras|mlmodel|caffemodel|prototxt|model|pt|pth|param|tflite|t7|cntk|meta)$/"
         }
       ],
       "editor/title/context": [
         {
-          "command": "netron-vscode-extension.open",
+          "command": "netron-vscode-ext.open",
           "when": "resourceExtname =~ /\\.(xml|pdmodel|nb|mnn|param|tnnproto|onnx|pb|pbtxt|h5|keras|mlmodel|caffemodel|prototxt|model|pt|pth|param|tflite|t7|cntk|meta)$/"
         }
       ]

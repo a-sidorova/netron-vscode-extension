@@ -3,7 +3,7 @@ import { Visualizer } from './visualizer';
 
 
 export function activate(context: vscode.ExtensionContext) {
-    context.subscriptions.push(vscode.commands.registerCommand('netron-vscode-extension.open', (resource: vscode.Uri) => {
+    context.subscriptions.push(vscode.commands.registerCommand('netron-vscode-ext.open', (resource: vscode.Uri) => {
         Visualizer.open(resource);
     }));
 }
