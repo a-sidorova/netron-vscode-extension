@@ -2,14 +2,14 @@
   "name": "netron-vscode-ext",
   "displayName": "Netron VSCode Extension",
   "description": "The extension allows users to use Netron to visualize Deep Learning models",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "publisher": "a-sidorova",
   "license": "Apache License 2.0",
   "icon": "resources/icon.png",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/a-sidorova/netron-vscode-extension.git"
-    },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a-sidorova/netron-vscode-extension.git"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -40,9 +40,6 @@
       ]
     }
   },
-  "dependencies": {
-    "python-bridge": "^1.1.0"
-  },
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
@@ -63,5 +60,8 @@
     "glob": "^8.1.0",
     "mocha": "^10.2.0",
     "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "tree-kill": "^1.2.2"
   }
 }
